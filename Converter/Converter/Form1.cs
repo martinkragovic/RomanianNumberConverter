@@ -40,20 +40,54 @@ namespace Converter
             
             for(i=0;i<brojac;i++)
             {
-                if (txt[i] == 'I')
-                    suma++;
-                else if (txt[i] == 'V')
-                    suma += 5;
-                else if (txt[i] == 'X')
-                    suma += 10;
-                else if (txt[i] == 'L')
-                    suma += 50;
-                else if (txt[i] == 'C')
-                    suma += 100;
-                else if (txt[i] == 'D')
-                    suma += 500;
-                else if (txt[i] == 'M')
-                    suma += 1000;
+                if(txt[i] == 'I'  && txt[i + 1] == 'V')
+                {
+                    suma += 4;
+                    i++;
+                }
+                else if (txt[i] == 'I' && txt[i + 1] == 'X')
+                {
+                    suma += 9;
+                    i++;
+                }
+                else if (txt[i] == 'X' && txt[i + 1] == 'L')
+                {
+                    suma += 40;
+                    i++;
+                }
+                else if (txt[i] == 'X' && txt[i + 1] == 'C')
+                {
+                    suma += 90;
+                    i++;
+                }
+                else if (txt[i] == 'C' && txt[i + 1] == 'D')
+                {
+                    suma += 400;
+                    i++;
+                }
+                else if (txt[i] == 'C' && txt[i + 1] == 'M')
+                {
+                    suma += 900;
+                    i++;
+                }
+                else
+                {
+                    if (txt[i] == 'I')
+                        suma++;
+                    else if (txt[i] == 'V')
+                        suma += 5;
+                    else if (txt[i] == 'X')
+                        suma += 10;
+                    else if (txt[i] == 'L')
+                        suma += 50;
+                    else if (txt[i] == 'C')
+                        suma += 100;
+                    else if (txt[i] == 'D')
+                        suma += 500;
+                    else if (txt[i] == 'M')
+                        suma += 1000;
+                }
+
             }
             string suma1 = Convert.ToString(suma);
             TB2.Text = suma1;
