@@ -1,0 +1,10 @@
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\bin\Debug\Converter.exe.config
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\bin\Debug\Converter.exe
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\bin\Debug\Converter.pdb
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\obj\Debug\Converter.csprojAssemblyReference.cache
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\obj\Debug\Converter.Form1.resources
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\obj\Debug\Converter.Properties.Resources.resources
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\obj\Debug\Converter.csproj.GenerateResource.cache
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\obj\Debug\Converter.csproj.CoreCompileInputs.cache
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\obj\Debug\Converter.exe
+D:\Luka GitHub\Number converter\RomanianNumberConverter\Converter\Converter\obj\Debug\Converter.pdb
